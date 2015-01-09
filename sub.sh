@@ -1,2 +1,4 @@
- #!/bin/sh
- find . -name "test.js" |  xargs sed -ie 's/foo/bar/g' 
+#!/bin/sh
+echo "pre-commit"
+git diff --name-only | xargs sed -i '' -e 's/foo/bar/g' 
+echo "pre-commit end"
