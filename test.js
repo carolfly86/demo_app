@@ -1,3 +1,3 @@
 console.log
 console.log
-fff
+console.log
